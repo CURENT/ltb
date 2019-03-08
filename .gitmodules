@@ -1,0 +1,18 @@
+[submodule "andes"]
+	path = andes
+	url = git@github.com:curent/andes
+[submodule "andes_cases"]
+	path = andes_cases
+	url = git@github.com:curent/andes_cases
+[submodule "andes_addon"]
+	path = andes_addon
+	url = git@github.com:curent/andes_addon
+[submodule "mininet"]
+	path = mininet
+	url = git@github.com:curent/mininet
+[submodule "ltbnet"]
+	path = ltbnet
+	url = git@github.com:curent/ltbnet
+[submodule "pypmu"]
+	path = pypmu
+	url = git@github.com:curent/pypmu
