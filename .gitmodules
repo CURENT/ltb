@@ -16,3 +16,6 @@
 [submodule "pypmu"]
 	path = pypmu
 	url = https://github.com/curent/pypmu.git
+[submodule "dime"]
+	path = dime
+	url = https://github.com/curent/dime.git
