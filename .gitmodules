@@ -16,3 +16,6 @@
 [submodule "pypmu"]
 	path = pypmu
 	url = git@github.com:curent/pypmu
+[submodule "ltbvis"]
+	path = ltbvis
+	url = git@github.com:curent/ltbvis
