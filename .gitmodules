@@ -1,21 +1,24 @@
 [submodule "andes"]
 	path = andes
-	url = git@github.com:curent/andes
+	url = https://github.com/curent/andes.git
 [submodule "andes_cases"]
 	path = andes_cases
-	url = git@github.com:curent/andes_cases
+	url = https://github.com/curent/andes_cases.git
 [submodule "andes_addon"]
 	path = andes_addon
-	url = git@github.com:curent/andes_addon
+	url = https://github.com/curent/andes_addon.git
 [submodule "mininet"]
 	path = mininet
-	url = git@github.com:curent/mininet
+	url = https://github.com/curent/mininet.git
 [submodule "ltbnet"]
 	path = ltbnet
-	url = git@github.com:curent/ltbnet
+	url = https://github.com/curent/ltbnet.git
 [submodule "pypmu"]
 	path = pypmu
-	url = git@github.com:curent/pypmu
+	url = https://github.com/curent/pypmu.git
 [submodule "ltbvis"]
 	path = ltbvis
-	url = git@github.com:curent/ltbvis
+	url = https://github.com/curent/ltbvis.git
+[submodule "dime"]
+	path = dime
+	url = https://github.com/curent/dime.git
