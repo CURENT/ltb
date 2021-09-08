@@ -1,6 +1,6 @@
 [submodule "andes"]
 	path = andes
-	url = https://github.com/curent/andes.git
+	url = https://github.com/CURENT/andes.git
 [submodule "andes_cases"]
 	path = andes_cases
 	url = https://github.com/curent/andes_cases.git
