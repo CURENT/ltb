@@ -6,7 +6,7 @@
 	url = https://github.com/CURENT/agvis.git
 [submodule "dime"]
 	path = dime
-	url = https://github.com/curent/dime.git
+	url = https://github.com/CURENT/dime.git
 [submodule "andes_cases"]
 	path = andes_cases
 	url = https://github.com/curent/andes_cases.git
