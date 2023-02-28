@@ -1,6 +1,12 @@
 [submodule "andes"]
 	path = andes
 	url = https://github.com/CURENT/andes.git
+[submodule "agvis"]
+	path = agvis
+	url = https://github.com/CURENT/agvis.git
+[submodule "dime"]
+	path = dime
+	url = https://github.com/curent/dime.git
 [submodule "andes_cases"]
 	path = andes_cases
 	url = https://github.com/curent/andes_cases.git
@@ -16,12 +22,3 @@
 [submodule "pypmu"]
 	path = pypmu
 	url = https://github.com/curent/pypmu.git
-[submodule "ltbvis"]
-	path = ltbvis
-	url = https://github.com/curent/ltbvis.git
-[submodule "dime"]
-	path = dime
-	url = https://github.com/curent/dime.git
-[submodule "dime2"]
-	path = dime2
-	url = https://github.com/TheHashTableSlasher/dime2.git
