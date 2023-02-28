@@ -9,9 +9,7 @@
 
 # CURENT Large-scale Testbed
 
-The Large-scale Testbed (LTB) is a tightly integrated, closed-loop platform for rapid prototyping of power systems. **[ANDES](https://docs.andes.app/en/stable/index.html)**, **[AMS](https://github.com/CURENT/ams)**, **[DiME](https://ltbdime.readthedocs.io/en/latest/)**, and **[AGVis](https://agvis.readthedocs.io/en/latest/#what-is-agvis)** are four major independent sub packages of LTB that serve as a dynamic simulator, market simulator, distributed messaging environment, and grid visualizer, respectively. Towards a one-stop solution, these LTB packages can serve for both individual and federated use.
-
-AMS is included in the newly released v2.0.
+The Large-scale Testbed (LTB) is a tightly integrated, closed-loop platform for rapid prototyping of power systems. **[ANDES](https://docs.andes.app/en/stable/index.html)**, **[AMS](https://github.com/jinningwang/ams)** (under development), **[DiME](https://ltbdime.readthedocs.io/en/latest/)**, and **[AGVis](https://agvis.readthedocs.io/en/latest/#what-is-agvis)** are four major independent sub packages of LTB that serve as a dynamic simulator, market simulator, distributed messaging environment, and grid visualizer, respectively. Towards a one-stop solution, these LTB packages can serve for both individual and federated use.
 
 # Why LTB
 
@@ -80,7 +78,9 @@ If you use LTB packages for research or consulting, we kindly request you to cit
 
 This work was supported in part by the Engineering Research Center Program of the National Science Foundation and the Department of Energy under NSF Award Number EEC-1041877 and the CURENT Industry Partnership Program.
 
-ANDES is authored by [Hantao Cui](https://github.com/cuihantao), AMS is authored by [Qiwei Zhang](https://github.com/qzhang41), DiME and AGVis are developed and maintained by [Nicholas West](https://github.com/TheHashTableSlasher) and [Nicholas Parsly](https://github.com/nparsly).
+ANDES is authored by [Hantao Cui](https://github.com/cuihantao), DiME and AGVis are developed and maintained by [Nicholas West](https://github.com/TheHashTableSlasher) and [Nicholas Parsly](https://github.com/nparsly).
+
+AMS is under development, stay tuned!
 
 # License
 
