@@ -4,8 +4,6 @@
 Release notes
 =============
 
-The APIs before v3.0.0 are in beta and may change without prior notice.
-
 v1.0 Notes
 ==========
 
