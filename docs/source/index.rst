@@ -31,7 +31,7 @@ LTB Documentation
 The CURENT Large-scale Testbed (LTB) is a state-of-the-art research facility designed
 for rapid prototyping of power systems. It is a tightly integrated, closed-loop system
 consisting of four major independent sub-packages: ANDES for dynamic simulation,
-AMS (under development) for market simulation,DiME for distributed messaging environment,
+AMS (under development) for market simulation, DiME for distributed messaging environment,
 and AGVis for grid visualization. These LTB packages can be used individually or in a federated
 manner, making it a versatile tool for power system research and development.
 
