@@ -7,8 +7,10 @@ LTB Documentation
 ===============================
 
 **Useful Links**: `CURENT Website`_ | `Report Issues`_ | `Q&A`_
+
 **Documentations**: `ANDES Documentation`_ | `AMS Documentation`_
 | `AGVis Documentation`_ | `DiME Documentation`_
+
 **Repositories**: `LTB Repository`_ | `ANDES Repository`_ | `AMS Repository`_
 | `AGVis Repository`_ | `DiME Repository`_
 
@@ -93,9 +95,6 @@ manner, making it a versatile tool for power system research and development.
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-Indices and tables
-==================
 
 .. toctree::
    :caption: LTB documentation
