@@ -1,12 +1,12 @@
-.. _scripting_examples:
+.. _demos:
 
 Demos
 ========
 
-A collection of demos are presented to show to capabilities of the LTB.
+A collection of demos are presented to show the capabilities of the LTB.
+
+Comming soon!
 
 .. toctree::
    :maxdepth: 2
    :caption: Co-Simulation
-   
-   cosim.ipynb

@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'LTB'
-copyright = '2023, LTB Team'
-author = 'LTB Team'
+copyright = '2023, CURENT LTB'
+author = 'CURENT LTB'
 release = 'v1.0.0'
 
 # -- General configuration ---------------------------------------------------

@@ -1,7 +1,6 @@
-sphinx
-numpydoc
-sphinx-copybutton
-sphinx-panels
-pydata-sphinx-theme
-ipython
-myst_nb
+numpy
+scipy
+pandas
+matplotlib
+tqdm
+andes
