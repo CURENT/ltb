@@ -6,12 +6,25 @@
 LTB Documentation
 ===============================
 
-**Useful Links**: `Source Repository`_ | `Report Issues`_
-| `Q&A`_ | `Try in Jupyter Notebooks`_
+**Useful Links**: `CURENT Website`_ | `Report Issues`_ | `Q&A`_
+**Documentations**: `ANDES Documentation`_ | `AMS Documentation`_
+| `AGVis Documentation`_ | `DiME Documentation`_
+**Repositories**: `LTB Repository`_ | `ANDES Repository`_ | `AMS Repository`_
+| `AGVis Repository`_ | `DiME Repository`_
 
-.. _`Source Repository`: https://github.com/CURENT/ltb
+.. _`CURENT Website`: https://curent.github.io/
 .. _`Report Issues`: https://github.com/CURENT/ltb/issues
 .. _`Q&A`: https://github.com/CURENT/ltb/discussions
+.. _`ANDES Documentation`: https://docs.andes.app/en/latest/
+.. _`AMS Documentation`: https://ams.readthedocs.io/en/latest/
+.. _`AGVis Documentation`: https://agvis.readthedocs.io/en/latest/
+.. _`DiME Documentation`: https://ltbdime.readthedocs.io/en/latest/
+.. _`LTB Repository`: https://github.com/CURENT/ltb
+.. _`ANDES Repository`: https://github.com/CURENT/andes
+.. _`AMS Repository`: https://github.com/CURENT/ams
+.. _`AGVis Repository`: https://github.com/CURENT/agvis
+.. _`DiME Repository`: https://github.com/CURENT/dime
+
 
 The CURENT Large-scale Testbed (LTB) is a state-of-the-art research facility designed
 for rapid prototyping of power systems. It is a tightly integrated, closed-loop system
@@ -29,9 +42,8 @@ manner, making it a versatile tool for power system research and development.
     Getting started
     ^^^^^^^^^^^^^^^
 
-    New to ANDES? Check out the getting started guides. They contain tutorials
-    to the ANDES command-line interface, scripting usages, as well as guides to
-    configure ANDES and work with case files.
+    New to CURENT LTB? Check out the getting started guides. They contain tutorials
+    to the LTB co-simulations in Jupyter Notebook.
 
     +++
 
@@ -42,50 +54,18 @@ manner, making it a versatile tool for power system research and development.
 
     ---
 
-    Examples
+    Demos
     ^^^^^^^^
 
-    The examples provide in-depth usage of ANDES in a Python scripting
-    environment. Advanced usage and and power system studies are shown with
-    explanation.
+    LTB has been used in many power system research to simulate complex power systems scenarios.
+    These demos demonstrate the LTB's ability to rapidly and accurately model and simulate the behavior
+    of modernized power systems.
 
     +++
 
-    .. link-button:: scripting_examples
+    .. link-button:: demos
             :type: ref
-            :text: To the examples
-            :classes: btn-block btn-secondary stretched-link
-
-    ---
-
-    Model development guide
-    ^^^^^^^^^^^^^^^^^^^^^^^
-
-    Looking to implement new models, algorithms and functionalities in ANDES?
-    The development guide provides in-depth information on the design
-    philosophy, data structure, and implementation of the hybrid
-    symbolic-numeric framework.
-
-    +++
-
-    .. link-button:: development
-            :type: ref
-            :text: To the development guide
-            :classes: btn-block btn-secondary stretched-link
-    ---
-
-    API reference
-    ^^^^^^^^^^^^^
-
-    The API reference contains a detailed description of the ANDES package. The
-    reference describes how the methods work and which parameters can be used.
-    It assumes that you have an understanding of the key concepts.
-
-    +++
-
-    .. link-button:: api_reference
-            :type: ref
-            :text: To the API reference
+            :text: To the demos
             :classes: btn-block btn-secondary stretched-link
 
     ---
@@ -93,7 +73,7 @@ manner, making it a versatile tool for power system research and development.
 
     Using LTB for Research?
     ^^^^^^^^^^^^^^^^^^^^^^^^^
-    Please cite our paper [Li2020]_[Cui2021]_[Cui2021]_ if LTB is used in your research for
+    Please cite our paper [Li2020]_ [Cui2021]_ [Parsly2022]_ if LTB is used in your research for
     publication.
 
 .. [Li2020] F. Li, K. Tomsovic and H. Cui, "A Large-Scale Testbed as a Virtual Power
@@ -118,7 +98,7 @@ Indices and tables
 ==================
 
 .. toctree::
-   :caption: LTB Documentation
+   :caption: LTB documentation
    :maxdepth: 3
    :hidden:
 

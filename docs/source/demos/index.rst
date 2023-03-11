@@ -1,4 +1,4 @@
-.. _scripting_examples:
+.. _demos:
 
 Demos
 ========
