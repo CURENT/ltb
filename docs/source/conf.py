@@ -6,10 +6,16 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import ltb
+
 project = 'LTB'
 copyright = '2023, CURENT LTB'
 author = 'CURENT LTB'
-release = 'v1.0.0'
+
+# The short X.Y version.
+version = ltb.__version__
+# The full version, including alpha/beta/rc tags.
+release = ltb.__version__
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
