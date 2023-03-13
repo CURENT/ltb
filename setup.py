@@ -82,7 +82,7 @@ setup(
     packages=find_packages(exclude=[]),
     entry_points={
         'console_scripts': [
-            # 'andes = andes.cli:main',
+            'ltb = ltb.cli:main',
         ],
     },
     include_package_data=True,
