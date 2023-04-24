@@ -12,6 +12,8 @@ import sys
 from time import strftime
 
 import andes
+import ams
+import agvis
 
 from ltb.main import config_logger, find_log_path
 from andes.utils.paths import get_log_dir
@@ -53,13 +55,15 @@ def preamble():
 
     py_version = platform.python_version()
     andes_version = andes.__version__
+    ams_version = ams.__version__
+    agvis_version = agvis.__version__
     system_name = platform.system()
     date_time = strftime('%m/%d/%Y %I:%M:%S %p')
     logger.info("\n"
                 r" ██╗  ████████╗██████╗  | CURENT Large-scale Testbed " + '\n'
                 rf" ██║  ╚══██╔══╝██╔══██╗ | Version {version}" + '\n'
-                rf" ██║     ██║   ██████╔╝ | ANDES {andes_version}; AMS comming soon!" + "\n"
-                rf" ██║     ██║   ██╔══██╗ | DiME; AGVis " + "\n"
+                rf" ██║     ██║   ██████╔╝ | ANDES {andes_version}; AMS {ams_version};" + "\n"
+                rf" ██║     ██║   ██╔══██╗ | AGVis {agvis_version}; DiME;" + "\n"
                 rf" ███████╗██║   ██████╔╝ | Python {py_version} on {system_name}, {date_time}" + "\n"
                 r" ╚══════╝╚═╝   ╚═════╝  | This program comes with ABSOLUTELY NO WARRANTY." + '\n')
 

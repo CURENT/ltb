@@ -4,3 +4,5 @@ pandas
 matplotlib
 tqdm
 andes
+git+https://github.com/CURENT/ams.git@develop
+git+https://github.com/CURENT/agvis.git@develop
