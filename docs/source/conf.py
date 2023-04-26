@@ -39,8 +39,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 project = 'LTB'
-copyright = '2023, CURENT LTB'
-author = 'CURENT LTB'
+copyright = '2023, Jining Wang'
+author = 'Jinning Wang'
 
 # The short X.Y version.
 version = ltb.__version__

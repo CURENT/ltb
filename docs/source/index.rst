@@ -104,3 +104,4 @@ manner, making it a versatile tool for power system research and development.
    getting_started/index
    demos/index
    release-notes
+   api
