@@ -4,5 +4,3 @@ pandas
 matplotlib
 tqdm
 andes
-git+https://github.com/jinningwang/ams.git@develop
-git+https://github.com/jinningwang/agvis.git@develop
