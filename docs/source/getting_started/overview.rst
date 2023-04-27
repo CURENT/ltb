@@ -10,7 +10,8 @@ ANDES for dynamic simulation, AMS (under development) for market simulation,DiME
 environment, and AGVis for grid visualization. These LTB packages can be used individually or in a federated manner,
 making it a versatile tool for power system research and development.
 
-LTB is currently under active development. To get involved,
+LTB is developed and actively maintained by the `LTB Team <https://ltb.curent.org/about/>`_.
+To get involved,
 
 * Report issues in the
   `GitHub issues page <https://github.com/CURENT/ltb/issues>`_
@@ -21,7 +22,5 @@ LTB is currently under active development. To get involved,
 This work was supported in part by the Engineering Research Center Program of
 the National Science Foundation and the Department of Energy under NSF Award
 Number EEC-1041877 and the CURENT_ Industry Partnership Program.
-
-LTB is developed and actively maintained by `LTB Team <https://curent.github.io/about/>`_.
 
 .. _CURENT: https://curent.utk.edu

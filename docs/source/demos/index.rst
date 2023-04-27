@@ -3,10 +3,14 @@
 Demos
 ========
 
-A collection of demos are presented to show the capabilities of the LTB.
+Check out our collection of `demo videos`_ showcasing the capabilities of the LTB!
 
-Comming soon!
+.. _`demo videos`: https://www.youtube.com/watch?v=VwsG5QuUKF8&list=PLE1ipkSMcqsbY8V8-DqVsMmlLMpXKtkld&ab_channel=CURENTLTB
+
+More demos coming soon!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Co-Simulation
+   :caption: LTB Demos
+   :hidden:
+

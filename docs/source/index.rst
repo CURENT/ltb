@@ -6,27 +6,33 @@
 LTB Documentation
 ===============================
 
-**Useful Links**: `CURENT Website`_ | `Report Issues`_ | `Q&A`_
+**Useful Links**: `CURENT Website`_ | `CURENT YouTube Channel`_
+| `Report Issues`_ | `Q&A`_
 
-**Documentations**: `ANDES Documentation`_ | `AMS Documentation`_
-| `AGVis Documentation`_ | `DiME Documentation`_
+**Documentations**: `ANDES Doc`_ | `AMS Doc`_
+| `AGVis Doc`_ | `DiME Doc`_
 
-**Repositories**: `LTB Repository`_ | `ANDES Repository`_ | `AMS Repository`_
-| `AGVis Repository`_ | `DiME Repository`_
+**Repositories**: `ANDES Repo`_ | `AMS Repo`_
+| `AGVis Repo`_ | `DiME Repo`_ | `LTB Repo`_
 
-.. _`CURENT Website`: https://curent.github.io/
+.. _`CURENT Website`: https://ltb.curent.org/
+.. _`CURENT YouTube Channel`: https://www.youtube.com/@curentltb
 .. _`Report Issues`: https://github.com/CURENT/ltb/issues
 .. _`Q&A`: https://github.com/CURENT/ltb/discussions
-.. _`ANDES Documentation`: https://docs.andes.app/en/latest/
-.. _`AMS Documentation`: https://ams.readthedocs.io/en/latest/
-.. _`AGVis Documentation`: https://agvis.readthedocs.io/en/latest/
-.. _`DiME Documentation`: https://ltbdime.readthedocs.io/en/latest/
-.. _`LTB Repository`: https://github.com/CURENT/ltb
-.. _`ANDES Repository`: https://github.com/CURENT/andes
-.. _`AMS Repository`: https://github.com/CURENT/ams
-.. _`AGVis Repository`: https://github.com/CURENT/agvis
-.. _`DiME Repository`: https://github.com/CURENT/dime
+.. _`ANDES Doc`: https://docs.andes.app/en/latest/
+.. _`AMS Doc`: https://ams.readthedocs.io/en/latest/
+.. _`AGVis Doc`: https://agvis.readthedocs.io/en/latest/
+.. _`DiME Doc`: https://ltbdime.readthedocs.io/en/latest/
+.. _`LTB Repo`: https://github.com/CURENT/ltb
+.. _`ANDES Repo`: https://github.com/CURENT/andes
+.. _`AMS Repo`: https://github.com/CURENT/ams
+.. _`AGVis Repo`: https://github.com/CURENT/agvis
+.. _`DiME Repo`: https://github.com/CURENT/dime
 
+.. image:: /images/sponsors/CURENT_Logo_NameOnTrans.png
+   :alt: CURENT Logo
+   :width: 300px
+   :height: 74.2px
 
 The CURENT Large-scale Testbed (LTB) is a state-of-the-art research facility designed
 for rapid prototyping of power systems. It is a tightly integrated, closed-loop system
