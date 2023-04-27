@@ -50,8 +50,9 @@ manner, making it a versatile tool for power system research and development.
     Getting started
     ^^^^^^^^^^^^^^^
 
-    New to CURENT LTB? Check out the getting started guides. They contain tutorials
-    to the LTB co-simulations in Jupyter Notebook.
+    New to CURENT LTB? Check out the getting started guides. These
+    tutorials will take you through the process of installing LTB
+    and running your first simulation.
 
     +++
 
@@ -62,18 +63,18 @@ manner, making it a versatile tool for power system research and development.
 
     ---
 
-    Demos
+    Gallery
     ^^^^^^^^
-
-    LTB has been used in many power system research to simulate complex power systems scenarios.
-    These demos demonstrate the LTB's ability to rapidly and accurately model and simulate the behavior
-    of modernized power systems.
+    
+    Get a deeper understanding of the comprehensive power system
+    simulation capabilities of LTB by exploring our gallery of example
+    simulations and visualizations.
 
     +++
 
-    .. link-button:: demos
+    .. link-button:: gallery
             :type: ref
-            :text: To the demos
+            :text: To the gallery
             :classes: btn-block btn-secondary stretched-link
 
     ---
@@ -108,6 +109,6 @@ manner, making it a versatile tool for power system research and development.
    :hidden:
 
    getting_started/index
-   demos/index
+   gallery/index
    release-notes
    api

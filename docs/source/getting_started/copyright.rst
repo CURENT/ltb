@@ -7,7 +7,7 @@ License
 
 GNU Public License v3
 *********************
-| Copyright :raw-html:`&copy;` 2023 CURENT LTB
+| Copyright :raw-html:`&copy;` 2023 `CURENT LTB Team <https://ltb.curent.org/about/>`_
 
 LTB is free software; you can redistribute it and/or modify it under the terms
 of the `GNU General Public License <http://www.gnu.org/licenses/gpl-3.0.html>`_

@@ -1,4 +1,4 @@
-.. _package-overview:
+.. _overview:
 
 =====================
 Platform Overview
@@ -10,7 +10,7 @@ ANDES for dynamic simulation, AMS (under development) for market simulation,DiME
 environment, and AGVis for grid visualization. These LTB packages can be used individually or in a federated manner,
 making it a versatile tool for power system research and development.
 
-LTB is developed and actively maintained by the `LTB Team <https://ltb.curent.org/about/>`_.
+LTB is developed and actively maintained by the `CURENT LTB Team <https://ltb.curent.org/about/>`_.
 To get involved,
 
 * Report issues in the
