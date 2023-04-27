@@ -24,6 +24,7 @@ command_aliases = {
     'selftest': ['st'],
 }
 
+
 def create_parser():
     """
     Create a parser for the command-line interface.
@@ -45,7 +46,7 @@ def create_parser():
     sub_parsers = parser.add_subparsers(dest='command', help='[demo] run demos; '
                                         )
 
-    run = sub_parsers.add_parser('run')
+    run = sub_parsers.add_parser('run') # NOQA
 
     misc = sub_parsers.add_parser('misc')
     misc.add_argument('--license', action='store_true', help='Display software license', dest='show_license')
@@ -54,11 +55,11 @@ def create_parser():
                       action='store_true')
     misc.add_argument('--version', action='store_true', help='Display version information')
 
-    doc = sub_parsers.add_parser('doc')
+    doc = sub_parsers.add_parser('doc') # NOQA
 
-    plot = sub_parsers.add_parser('plot')
+    plot = sub_parsers.add_parser('plot') # NOQA
 
-    selftest = sub_parsers.add_parser('selftest', aliases=command_aliases['selftest'])
+    selftest = sub_parsers.add_parser('selftest', aliases=command_aliases['selftest']) # NOQA
 
     demo = sub_parsers.add_parser('demo')  # NOQA
 
