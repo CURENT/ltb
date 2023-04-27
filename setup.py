@@ -96,8 +96,8 @@ setup(
     install_requires=parse_requires('requirements.txt'),
     extras_require=extras_require,
     dependency_links=[
-        'git+https://github.com/jinningwang/ams.git@develop#egg=ams',
-        'git+https://github.com/jinningwang/agvis.git@develop#egg=agvis',
+        'git+https://github.com/CURENT/ams.git@develop#egg=ams',
+        'git+https://github.com/CURENT/agvis.git@develop#egg=agvis',
     ],
     license="GNU Public License v3",
     classifiers=[
