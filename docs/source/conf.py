@@ -159,7 +159,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'ltb.tex', 'LTB Manual',
-     'Hantao Cui', 'manual'),
+     'Jinning Wang', 'manual'),
 ]
 
 
