@@ -93,6 +93,9 @@ target/
 # Ipython Notebook
 .ipynb_checkpoints
 
+# ANDES config
+*.rc
+
 # Andes dat and lst files
 andes/cases/*/*.txt
 *.dat
