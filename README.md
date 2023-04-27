@@ -5,7 +5,7 @@
 A closed-loop platform for rapid power systems prototyping. It includes
 four independent sub-packages: **[ANDES](https://docs.andes.app/en/stable/index.html)** for dynamic simulation, **[AMS](https://github.com/jinningwang/ams)** for market simulation (under development), **[DiME](https://ltbdime.readthedocs.io/en/latest/)** for distributed messaging, and **[AGVis](https://agvis.readthedocs.io/en/latest/#what-is-agvis)** for geo-visualization. Towards a one-stop solution, these packages can be used individually or together.
 
-Documentation LTB series packages:
+Documentation of LTB series packages:
 
 |               | Latest                                                                                                                                        | Stable                                                                                                                                        |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
