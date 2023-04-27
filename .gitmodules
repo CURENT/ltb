@@ -1,6 +1,9 @@
 [submodule "andes"]
 	path = andes
 	url = https://github.com/CURENT/andes.git
+[submodule "ams"]
+	path = ams
+	url = https://github.com/CURENT/ams.git
 [submodule "agvis"]
 	path = agvis
 	url = https://github.com/CURENT/agvis.git
