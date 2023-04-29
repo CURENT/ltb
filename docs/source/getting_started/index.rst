@@ -20,6 +20,7 @@ Getting started
     :hidden:
 
     overview
+    install
     tutorial
     copyright
 
@@ -53,7 +54,7 @@ Install dependencies with ``pip``:
     pip install -r requirements.txt
     pip install -r requirements-extra.txt
 
-Step 3: Install ANDES in the development mode using
+Step 4: Install LTB in the development mode using
 
 .. code:: bash
 
@@ -64,9 +65,9 @@ Note the dot at the end. Pip will take care of the rest.
 .. note::
     The versions of each submodule that LTB uses are specified in the
     ``requirements.txt`` file. If you require a different version of a submodule,
-    you can modify the version number in the file before installing LTB.
+    you can manually install a specified version using ``pip install``.
 
     Alternatively, if you want to use the latest version of each submodule,
     you can install it manually using
     ``pip install git+https://github.com/CURENT/andes.git@develop``
-    or other packages.
+    or other package source.
