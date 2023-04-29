@@ -20,6 +20,10 @@ from andes.utils.paths import get_log_dir
 
 logger = logging.getLogger(__name__)
 
+command_aliases = {
+    'selftest': ['st'],
+}
+
 
 def create_parser():
     """
@@ -42,6 +46,21 @@ def create_parser():
     sub_parsers = parser.add_subparsers(dest='command', help='[demo] run demos; '
                                         )
 
+    run = sub_parsers.add_parser('run') # NOQA
+
+    misc = sub_parsers.add_parser('misc')
+    misc.add_argument('--license', action='store_true', help='Display software license', dest='show_license')
+    misc.add_argument('-C', '--clean', help='Clean output files', action='store_true')
+    misc.add_argument('-r', '--recursive', help='Recursively clean outputs (combined useage with --clean)',
+                      action='store_true')
+    misc.add_argument('--version', action='store_true', help='Display version information')
+
+    doc = sub_parsers.add_parser('doc') # NOQA
+
+    plot = sub_parsers.add_parser('plot') # NOQA
+
+    selftest = sub_parsers.add_parser('selftest', aliases=command_aliases['selftest']) # NOQA
+
     demo = sub_parsers.add_parser('demo')  # NOQA
 
     return parser
@@ -60,7 +79,7 @@ def preamble():
     system_name = platform.system()
     date_time = strftime('%m/%d/%Y %I:%M:%S %p')
     logger.info("\n"
-                r" ██╗  ████████╗██████╗  | CURENT Large-scale Testbed " + '\n'
+                r" ██╗  ████████╗██████╗  | CURENT Large-scale Testbed Platform" + '\n'
                 rf" ██║  ╚══██╔══╝██╔══██╗ | Version {version}" + '\n'
                 rf" ██║     ██║   ██████╔╝ | ANDES {andes_version}; AMS {ams_version};" + "\n"
                 rf" ██║     ██║   ██╔══██╗ | AGVis {agvis_version}; DiME;" + "\n"
@@ -90,7 +109,13 @@ def main():
     logger.debug(args)
 
     module = importlib.import_module('ltb.main')
-    preamble()
+
+    if args.command in ('plot', 'doc', 'misc'):
+        pass
+    elif args.command == 'run' and args.no_preamble is True:
+        pass
+    else:
+        preamble()
 
     # Run the command
     if args.command is None:
@@ -98,6 +123,9 @@ def main():
 
     else:
         cmd = args.command
+        for fullcmd, aliases in command_aliases.items():
+            if cmd in aliases:
+                cmd = fullcmd
 
         func = getattr(module, cmd)
         return func(cli=True, **vars(args))
