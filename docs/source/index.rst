@@ -6,23 +6,22 @@
 LTB Documentation
 ===============================
 
-**Useful Links**: `CURENT Website`_ | `CURENT YouTube Channel`_
-| `Report Issues`_ | `Q&A`_
+**Useful Links**: `Website`_ | `YouTube Channel`_
+| `Report Issues`_
 
-**Documentations**: `ANDES Doc`_ | `AMS Doc`_
-| `AGVis Doc`_ | `DiME Doc`_
-
-**Repositories**: `ANDES Repo`_ | `AMS Repo`_
-| `AGVis Repo`_ | `DiME Repo`_ | `LTB Repo`_
-
-.. _`CURENT Website`: https://ltb.curent.org/
-.. _`CURENT YouTube Channel`: https://www.youtube.com/@curentltb
+.. _`Website`: https://ltb.curent.org/
+.. _`YouTube Channel`: https://www.youtube.com/@curentltb
 .. _`Report Issues`: https://github.com/CURENT/ltb/issues
-.. _`Q&A`: https://github.com/CURENT/ltb/discussions
+.. _`LTB Doc`: https://ltb.readthedocs.io/en/latest/
 .. _`ANDES Doc`: https://docs.andes.app/en/latest/
 .. _`AMS Doc`: https://ams.readthedocs.io/en/latest/
 .. _`AGVis Doc`: https://agvis.readthedocs.io/en/latest/
 .. _`DiME Doc`: https://ltbdime.readthedocs.io/en/latest/
+.. _`LTB Q&A`: https://github.com/CURENT/ltb/discussions
+.. _`ANDES Q&A`: https://github.com/CURENT/andes/discussions
+.. _`AMS Q&A`: https://github.com/CURENT/ams/discussions
+.. _`AGVis Q&A`: https://github.com/CURENT/agvis/discussions
+.. _`DiME Q&A`: https://github.com/CURENT/dime/discussions
 .. _`LTB Repo`: https://github.com/CURENT/ltb
 .. _`ANDES Repo`: https://github.com/CURENT/andes
 .. _`AMS Repo`: https://github.com/CURENT/ams
@@ -40,6 +39,16 @@ consisting of four major independent sub-packages: ANDES for dynamic simulation,
 AMS (under development) for market simulation, DiME for distributed messaging environment,
 and AGVis for grid visualization. These LTB packages can be used individually or in a federated
 manner, making it a versatile tool for power system research and development.
+
++-------------------+-------------+---------------+-------------+---------------+--------------+
+|                   | LTB         | ANDES         | AMS         | AGVis         | DiME         |
++===================+=============+===============+=============+===============+==============+
+| **Documentation** | `LTB Doc`_  | `ANDES Doc`_  | `AMS Doc`_  | `AGVis Doc`_  | `DiME Doc`_  |
++-------------------+-------------+---------------+-------------+---------------+--------------+
+| **Repository**    | `LTB Repo`_ | `ANDES Repo`_ | `AMS Repo`_ | `AGVis Repo`_ | `DiME Repo`_ |
++-------------------+-------------+---------------+-------------+---------------+--------------+
+| **Q&A**           | `LTB Q&A`_  | `ANDES Q&A`_  | `AMS Q&A`_  | `AGVis Q&A`_  | `DiME Q&A`_  |
++-------------------+-------------+---------------+-------------+---------------+--------------+
 
 .. panels::
     :card: + intro-card text-center

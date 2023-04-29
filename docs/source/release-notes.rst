@@ -7,19 +7,11 @@ Release notes
 v1.0 Notes
 ==========
 
-v1.0.2 (2023-04-27)
+v1.0.0 (2023-04-29)
 --------------------
+- Initial release LTB series tools, including ANDES, DiME, and AGVis.
 - Improve documentation for LTB.
 - Update README.
-
-v1.0.1 (2023-03-12)
---------------------
-- Package LTB suits as a single package.
-- Add documentation for LTB.
-
-v1.0.0 (2020-07-29)
---------------------
-Initial release LTB series tools, including ANDES, DiME, and AGVis.
 
 Our Story So Far [Update 2023-04]
 ===============================================
